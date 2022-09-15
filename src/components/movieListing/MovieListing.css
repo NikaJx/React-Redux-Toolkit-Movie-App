@@ -1,0 +1,29 @@
+.movie-list {
+    margin: 20px 0;
+}
+
+.movie-list h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 15px;
+}
+
+.show-list {
+    margin: 20px 0;
+}
+
+.show-list h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.show-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 15px;
+}
